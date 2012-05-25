@@ -3,7 +3,8 @@
  * TextileHelper
  *
  * @author: Marco Pegoraro <marco.pegoraro@gmail.com>
- * @info: http://movableapp.com/textile
+ * @info: 	http://movableapp.com/textile
+ * @git:	https://github.com/thepeg/Textile/blob/master/View/Helper/TextileHelper.php
  */
 
 
