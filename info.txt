@@ -1,0 +1,34 @@
+Textile | CakePHP Plugin
+------------------------
+
+@author: 	Marco Pegoraro <marco.pegoraro@gmail.com>
+@info:		http://movableapp.com/textile
+@git:		https://github.com/thepeg/Textile
+
+Supplies TextileHelper to your project to parse plain text with simple sintax into HTML.
+
+
+
+
+
+
+
+
+QUICK EXAMPLE: 
+------------------------
+
+"this is *a test* string" -> "<p>this is <strong>a test</strong> string"
+
+
+
+HOW TO USE:
+------------------------
+
+
+// Controller/FooController.php
+public $helpers = array( 'Textile.Textile' );
+
+
+// View/Foo/foo.ctp
+echo $this->Textile->parse("this is *a test* string");
+
