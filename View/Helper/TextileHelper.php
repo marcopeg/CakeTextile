@@ -8,7 +8,6 @@
  */
 
 
-
 // Import vendor's library
 App::import( 'Vendor', 'Textile.classTextile' );
 
@@ -56,7 +55,7 @@ class TextileHelper extends AppHelper {
 /**
  * It parse a text but remove block tags who can't fit inside a title
  */	
-	public function title( $str ) {
+	public function parseString( $str ) {
 		
 		$allowed_tags = '<a><b><i><u><em><strong><sup><sub><small>';
 		
